@@ -1,0 +1,91 @@
+.date {
+    font-size: 10px;
+    font-style: italic;
+  }
+
+.newTransaction{
+width:380px;
+float: right;
+margin-left: 10px;
+
+}
+.category{
+  font-weight: bolder; 
+}
+.history{
+  float: left;
+  width:400px;
+}
+
+select{
+  width: 100%;
+  height:30px;
+}
+input[type="number"],input[type="date"]{
+  width: 100%;
+  height: 30px;
+}
+
+textarea{
+  width: 100%;
+  height: 80px;
+}
+
+.text{
+  font-size: 15px;
+  font-style:italic;
+  color: #10d39d;
+}
+
+.amount{
+  font-weight: bolder;
+}
+
+.card{
+float: left;
+margin-bottom: 30px;
+width: 400px;
+padding: 10px;
+}
+
+.form-control{
+  font-weight: bolder;
+  color: #fff;
+}
+.clean{
+  margin-left: 120px;
+  float: left;
+}
+
+.cleanbtn{
+  cursor: pointer;
+  background-color: #3cd66f80;
+  box-shadow: var(--box-shadow);
+  color: #fff;
+  border: 0;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 200px;
+}
+
+
+.header{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: line;
+  font-weight: 600;
+  font-family: sans-serif;
+  line-height: 0.833;
+  letter-spacing: 5px;
+  color: #fff;
+  background: -webkit-linear-gradient(45deg, #00a0e9, #10d39d, #00a0e9, #10d39d);
+  -moz-linear-gradient:(45deg, #00a0e9, #10d39d, #00a0e9, #10d39d);
+  -ms-linear-gradient:(45deg, #00a0e9, #10d39d, #00a0e9, #10d39d);
+  color: transparent;
+  background-clip: text;
+  animation: ran 20s linear infinite;
+}
